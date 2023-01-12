@@ -1,9 +1,45 @@
 @import "nullstyle.css";
 
+html, body {
+    height: 100%;
+}
+
 body {
     font-family: 'Montserrat', sans-serif;
     font-weight: 400;
     font-size: 14px;
     color: #2c2c2c;
 }
+
+.wrapper {}
+
+.container {}
+
+/* ---------------- header ---------------- */
+
+.header {}
+
+.header__body {}
+
+.header__logo {}
+
+.header__burger {}
+
+.header__burger span {}
+
+.header__menu {}
+
+.header__list {}
+
+.header__item {}
+
+.header__link {}
+
+/* ---------------- content ---------------- */
+
+.content {}
+
+.content__text {}
+
+.content__text p {}
 
