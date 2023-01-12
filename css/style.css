@@ -1,37 +1,9 @@
 @import "nullstyle.css";
 
-html, body {
-    height: 100%;
-}
-
 body {
     font-family: 'Montserrat', sans-serif;
-    font-size: 14px;
     font-weight: 400;
+    font-size: 14px;
     color: #2c2c2c;
 }
 
-.wrapper {}
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-.content__text {
-    font-size: 18px;
-}
-
-.content__text p {
-    margin-bottom: 20px;
-}
