@@ -16,7 +16,12 @@ body {
     color: #2c2c2c;
 }
 
-.wrapper {}
+.wrapper {
+    min-height: 100%;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+}
 
 .container {
     max-width: 1140px;
@@ -44,6 +49,8 @@ body {
     background-color: var(--color-primary);
     z-index: 2;
 }
+
+.header__container {}
 
 .header__body {
     position: relative;
@@ -88,6 +95,12 @@ body {
 .header__link:hover {
     background-color: rgba(222, 222, 222, 0.3);
     border-radius: 5px;
+}
+
+/* ---------------- page ---------------- */
+
+.page {
+    flex: 1 1 auto;
 }
 
 /* ---------------- @media ---------------- */
@@ -182,16 +195,3 @@ body {
         margin: 0 0 20px 0;
     }
 }
-
-/* ---------------- content ---------------- */
-
-.content {}
-
-.content__text {
-    font-size: 18px;
-}
-
-.content__text p {
-    margin: 0 0 20px 0;
-}
-
