@@ -1,8 +1,10 @@
 @import "nullstyle.css";
 
 :root {
-    --color-primary: #378c3f;
+    --color-1: #fff;
+    --color-2: #378c3f;
     --default-transition: all .3s ease 0s;
+    --border-radius: 5px;
 }
 
 html, body {
@@ -59,7 +61,7 @@ body {
     left: 0;
     width: 100%;
     height: 100%;
-    background-color: var(--color-primary);
+    background-color: var(--color-2);
     z-index: 2;
 }
 
@@ -74,7 +76,7 @@ body {
 }
 
 .header__logo {
-    color: #fff;
+    color: var(--color-1);
     text-transform: uppercase;
     position: relative;
     z-index: 3;
@@ -99,7 +101,7 @@ body {
 }
 
 .header__link {
-    color: #fff;
+    color: var(--color-1);
     text-transform: uppercase;
     padding: 15px 12px;
     transition: var(--default-transition);
@@ -107,7 +109,7 @@ body {
 
 .header__link:hover {
     background-color: rgba(222, 222, 222, 0.3);
-    border-radius: 5px;
+    border-radius: var(--border-radius);
 }
 
 /* ---------------- page ---------------- */
@@ -128,15 +130,36 @@ body {
     padding: 110px 0;
     position: relative;
     z-index: 2;
+    text-align: center;
 }
 
-.main-block__title {}
+.main-block__title {
+    color: var(--color-1);
+    font-weight: 700;
+    font-size: 2.5em;
+    line-height: 1.3em;
+}
 
-.main-block__subtitle {}
+.main-block__subtitle {
+    color: var(--color-1);
+    font-weight: 700;
+    line-height: 2em;
+    text-transform: uppercase;
+}
 
-.main-block__buttons {}
+.main-block__buttons {
+    margin: 20px 0 0 0;
+}
 
-.main-block__button {}
+.main-block__button {
+    display: inline-block;
+    color: var(--color-1);
+    background-color: var(--color-2);
+    width: 160px;
+    padding: 15px;
+    border-radius: var(--border-radius);
+    font-size: 0.85em;
+}
 
 .main-block__image {
     position: absolute;
@@ -174,7 +197,7 @@ body {
     }
 
     .header__burger span {
-        background-color: #fff;
+        background-color: var(--color-1);
         position: absolute;
         left: 0;
         width: 80%;
@@ -186,7 +209,7 @@ body {
     .header__burger::before,
     .header__burger::after {
         content: '';
-        background-color: #fff;
+        background-color: var(--color-1);
         position: absolute;
         width: 100%;
         height: 1px;
