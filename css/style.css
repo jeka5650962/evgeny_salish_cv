@@ -103,6 +103,26 @@ body {
     flex: 1 1 auto;
 }
 
+.page__main-block {}
+
+.main-block {}
+
+.main-block__container {}
+
+.main-block__body {}
+
+.main-block__title {}
+
+.main-block__subtitle {}
+
+.main-block__buttons {}
+
+.main-block__button {}
+
+.main-block__image {}
+
+.main-block__image img {}
+
 /* ---------------- @media ---------------- */
 
 @media (max-width: 1199px) {
