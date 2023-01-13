@@ -23,7 +23,7 @@ body {
     flex-direction: column;
 }
 
-.container {
+._container {
     max-width: 1140px;
     margin: 0 auto;
     padding: 0 15px;
@@ -106,7 +106,7 @@ body {
 /* ---------------- @media ---------------- */
 
 @media (max-width: 1199px) {
-    .container {
+    ._container {
         max-width: 960px;
     }
 }
@@ -116,7 +116,7 @@ body {
         overflow: hidden;
     }
 
-    .container {
+    ._container {
         max-width: 720px;
     }
 
