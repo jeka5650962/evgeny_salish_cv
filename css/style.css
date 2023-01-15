@@ -3,6 +3,7 @@
 :root {
     --color-1: #fff;
     --color-2: #378c3f;
+    --color-3: #40a249;
     --default-transition: all .3s ease 0s;
     --border-radius: 5px;
 }
@@ -133,6 +134,18 @@ body {
     text-align: center;
 }
 
+.main-block__photo {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    overflow: hidden;
+    margin: 0 auto 2rem auto;
+}
+
+.main-block__photo img {
+    width: 100%;
+}
+
 .main-block__title {
     color: var(--color-1);
     font-weight: 700;
@@ -164,6 +177,11 @@ body {
     padding: 1rem;
     border-radius: var(--border-radius);
     font-size: 0.8571rem;
+    transition: var(--default-transition);
+}
+
+.main-block__button:hover {
+    background-color: var(--color-3);
 }
 
 .main-block__image {
