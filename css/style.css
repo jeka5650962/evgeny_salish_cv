@@ -13,7 +13,6 @@ html, body {
 
 body {
     font-family: 'Montserrat', sans-serif;
-    font-weight: 400;
     color: #2c2c2c;
 }
 
@@ -70,7 +69,7 @@ body {
     position: relative;
     display: flex;
     justify-content: space-between;
-    height: 62px;
+    height: 4em;
     align-items: center;
 }
 
@@ -97,14 +96,14 @@ body {
 }
 
 .header__item {
-    margin: 0 0 0 5px;
+    margin: 0 0 0 .4em;
 }
 
 .header__link {
     color: var(--color-1);
     font-size: 0.92rem;
     text-transform: uppercase;
-    padding: 15px 12px;
+    padding: .8em 1em;
     transition: var(--default-transition);
 }
 
@@ -128,7 +127,7 @@ body {
 .main-block__container {}
 
 .main-block__body {
-    padding: 110px 0;
+    padding: 7.85rem 0;
     position: relative;
     z-index: 2;
     text-align: center;
@@ -138,21 +137,22 @@ body {
     color: var(--color-1);
     font-weight: 700;
     font-size: 2.5rem;
-    margin: 0 0 10px 0;
+    margin: 0 0 .5em 0;
 }
 
 .main-block__subtitle {
     color: var(--color-1);
     font-weight: 700;
     text-transform: uppercase;
+    line-height: 1.3;
 }
 
 .main-block__buttons {
-    margin: 20px 0 0 0;
+    margin: 1.43rem 0 0 0;
     display: flex;
     justify-content: center;
-    row-gap: 10px;
-    column-gap: 10px;
+    row-gap: .7em;
+    column-gap: .7em;
     flex-wrap: wrap;
 }
 
@@ -161,7 +161,7 @@ body {
     color: var(--color-1);
     background-color: var(--color-2);
     flex: 0 0 160px;
-    padding: 15px;
+    padding: 1rem;
     border-radius: var(--border-radius);
     font-size: 0.8571rem;
 }
@@ -265,6 +265,6 @@ body {
     }
 
     .header__item {
-        margin: 0 0 20px 0;
+        margin: 0 0 2.5rem 0;
     }
 }
