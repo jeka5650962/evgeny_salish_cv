@@ -184,6 +184,36 @@ body {
     background-color: var(--color-3);
 }
 
+.main-block__social {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    row-gap: .7em;
+    column-gap: .7em;
+}
+
+.social {
+    width: 57px;
+    height: 57px;
+    flex: 0 0 auto;
+    background-color: #888;
+    border-radius: 50%;
+    position: relative;
+    bottom: -135px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: var(--default-transition);
+}
+
+.social:hover {
+    box-shadow: rgba(55, 140, 63, .5) 0 0 0 3px;
+}
+
+.social img {
+    height: 22px;
+}
+
 .main-block__image {
     position: absolute;
     width: 100%;
