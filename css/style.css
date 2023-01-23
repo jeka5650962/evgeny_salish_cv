@@ -116,6 +116,8 @@ body {
     flex: 1 1 auto;
 }
 
+/* -------------------------------- banner -------------------------------- */
+
 .banner {
     position: relative;
 }
@@ -217,6 +219,28 @@ body {
 }
 
 .banner__image img {}
+
+/* -------------------------------- about -------------------------------- */
+
+.about {
+    padding: 70px 0;
+}
+
+.about__container {}
+
+.about__block {
+    background-color: #888888;
+    border-radius: var(--border-radius);
+}
+
+.about__body {
+    display: flex;
+    padding: 1.25rem;
+}
+
+.about__myself {}
+
+.about__basic {}
 
 /* -------------------------------- @media -------------------------------- */
 
