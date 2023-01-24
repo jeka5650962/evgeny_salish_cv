@@ -174,8 +174,6 @@ body {
 
 .banner__button:hover {
     background-color: var(--color-3);
-    /*scale: 1.03;*/
-    /*font-size: 1rem;*/
 }
 
 .banner__social {
@@ -210,18 +208,12 @@ body {
 .banner__image {
     position: absolute;
     width: 100%;
-    height: 100%;
+    height: 550px;
     top: 0;
     left: 0;
 }
 
 /* -------------------------------- block -------------------------------- */
-
-.block {
-}
-
-.block__container {
-}
 
 .block__body {
     background-color: #fff;
