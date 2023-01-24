@@ -14,6 +14,7 @@ html, body {
 
 body {
     font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
     color: #2c2c2c;
 }
 
@@ -83,10 +84,6 @@ body {
     display: none;
 }
 
-.header__burger span {}
-
-.header__menu {}
-
 .header__list {
     display: flex;
     position: relative;
@@ -121,8 +118,6 @@ body {
 .banner {
     position: relative;
 }
-
-.banner__container {}
 
 .banner__body {
     padding: 7.85rem 0;
@@ -178,7 +173,8 @@ body {
 
 .banner__button:hover {
     background-color: var(--color-3);
-    scale: 1.03;
+    /*scale: 1.03;*/
+    /*font-size: 1rem;*/
 }
 
 .banner__social {
@@ -218,29 +214,67 @@ body {
     left: 0;
 }
 
-.banner__image img {}
-
 /* -------------------------------- about -------------------------------- */
 
 .about {
     padding: 70px 0;
 }
 
-.about__container {}
-
 .about__block {
-    background-color: #888888;
+    background-color: #fff;
     border-radius: var(--border-radius);
+    box-shadow: 0 5px 25px 0 rgb(0 0 0 / 20%);
 }
 
 .about__body {
     display: flex;
+}
+
+.about__column {
+    flex: 0 1 50%;
     padding: 1.25rem;
 }
 
-.about__myself {}
+.about__title {
+    margin: 0 0 35px 0;
+}
 
-.about__basic {}
+.title {
+    font-weight: 700;
+    font-size: 1.7rem;
+}
+
+.about__summary {
+    line-height: 1.5;
+}
+
+.about__basic {
+    margin: 0 0 35px 0;
+}
+
+.about__item {
+    display: flex;
+}
+
+.about__item:not(:last-child) {
+    margin: 0 0 25px 0;
+}
+
+.about__item a:hover {
+    color: var(--color-3);
+}
+
+.about__property {
+    flex: 0 1 30%;
+    font-weight: 700;
+    font-size: 1rem;
+    text-transform: uppercase;
+}
+
+.about__value {
+    flex: 0 1 70%;
+    color: inherit;
+}
 
 /* -------------------------------- @media -------------------------------- */
 
@@ -332,5 +366,22 @@ body {
 
     .header__item {
         margin: 0 0 2.5rem 0;
+    }
+
+    .about__body {
+        flex-direction: column;
+    }
+}
+
+@media (max-width: 767px) {
+}
+
+@media (max-width: 575px) {
+    .about__item {
+        display: block;
+    }
+
+    .about__property {
+        margin: 0 0 10px 0;
     }
 }
