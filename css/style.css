@@ -117,6 +117,7 @@ body {
 
 .banner {
     position: relative;
+    margin-bottom: 70px;
 }
 
 .banner__body {
@@ -214,67 +215,74 @@ body {
     left: 0;
 }
 
-/* -------------------------------- about -------------------------------- */
+/* -------------------------------- block -------------------------------- */
 
-.about {
-    padding: 70px 0;
+.block {
 }
 
-.about__block {
+.block__container {
+}
+
+.block__body {
     background-color: #fff;
-    border-radius: var(--border-radius);
     box-shadow: 0 5px 25px 0 rgb(0 0 0 / 20%);
+    border-radius: var(--border-radius);
 }
 
-.about__body {
+.block__row {
     display: flex;
 }
 
-.about__column {
+.block__column {
     flex: 0 1 50%;
     padding: 2rem;
 }
 
-.about__title {
-    margin: 0 0 35px 0;
-}
+/* -------------------------------- subtitle -------------------------------- */
 
-.title {
+.subtitle {
     font-weight: 700;
     font-size: 1.7rem;
 }
 
-.about__summary {
-    line-height: 1.5;
+/* -------------------------------- about -------------------------------- */
+
+.subtitle__about {
+    margin: 0 0 1.3em 0;
 }
 
-.about__basic {
-    margin: 0 0 35px 0;
+.block__about {
+    line-height: 1.5rem;
 }
 
-.about__item {
+.block__basic {
     display: flex;
 }
 
-.about__item:not(:last-child) {
-    margin: 0 0 25px 0;
+.block__basic:not(:last-child) {
+    margin-bottom: 1.4em;
 }
 
-.about__item a:hover {
-    color: var(--color-3);
-}
-
-.about__property {
+.basic__property {
     flex: 0 1 30%;
     font-weight: 700;
-    font-size: 1rem;
     text-transform: uppercase;
 }
 
-.about__value {
+.basic__value {
     flex: 0 1 70%;
+}
+
+.basic__value_link {
     color: inherit;
 }
+
+.basic__value_link:hover {
+    color: var(--color-3);
+}
+
+/* -------------------------------- skills -------------------------------- */
+
 
 /* -------------------------------- @media -------------------------------- */
 
@@ -371,17 +379,44 @@ body {
     .about__body {
         flex-direction: column;
     }
+
+    .about__column:last-child {
+        padding: 0 2rem 2rem 2rem;
+    }
+
+    .block__row {
+        flex-direction: column;
+    }
+
+    .block__column:last-child {
+        padding: 0 2rem 2rem 2rem;
+    }
 }
 
 @media (max-width: 767px) {
+    ._container {
+        max-width: 540px;
+    }
 }
 
 @media (max-width: 575px) {
+    ._container {
+        max-width: 100%;
+    }
+
     .about__item {
         display: block;
     }
 
     .about__property {
         margin: 0 0 10px 0;
+    }
+
+    .block__basic {
+        flex-direction: column;
+    }
+
+    .basic__property {
+        margin-bottom: .4em;
     }
 }
