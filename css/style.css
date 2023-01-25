@@ -68,7 +68,7 @@ body {
     position: relative;
     display: flex;
     justify-content: space-between;
-    height: 4em;
+    height: 6em;
     align-items: center;
 }
 
@@ -121,7 +121,7 @@ body {
 }
 
 .banner__body {
-    padding: 7.85rem 0;
+    padding: 90px 0;
     position: relative;
     z-index: 2;
     text-align: center;
