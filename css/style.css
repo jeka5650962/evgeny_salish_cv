@@ -295,9 +295,16 @@ body {
 
 /* -------------------------------- slider -------------------------------- */
 
+.skill {
+    margin-bottom: 30px;
+}
+
 .skill__info {
     display: flex;
     justify-content: space-between;
+    color: var(--color-2);
+    font-size: 15px;
+    margin-bottom: 15px;
 }
 
 .range {
@@ -307,7 +314,7 @@ body {
 .range .bar {
     position: absolute;
     left: 0;
-    top: 7px;
+    top: 0;
     width: 100%;
     height: 5px;
     z-index: 1;
@@ -324,18 +331,48 @@ body {
     width: 80%;
 }
 
+.range .bar .fill-2 {
+    width: 85%;
+}
+
+.range .bar .fill-3 {
+    width: 60%;
+}
+
+.range .bar .fill-4 {
+    width: 90%;
+}
+
+.range .bar .fill-5 {
+    width: 50%;
+}
+
+.range .bar .fill-6 {
+    width: 40%;
+}
+
+.range .bar .fill-7 {
+    width: 70%;
+}
+
+.range .bar .fill-8 {
+    width: 95%;
+}
+
+.range .bar .fill-9 {
+    width: 70%;
+}
+
+.range .bar .fill-10 {
+    width: 80%;
+}
+
 .range .slider {
     position: relative;
     z-index: 2;
     width: 100%;
-    -webkit-appearance: none;
     height: 5px;
-    outline: none;
     background-color: rgba(55, 140, 63, 0.4);
-}
-
-.range .slider::-webkit-slider-thumb {
-    -webkit-appearance: none;
 }
 
 /* -------------------------------- @media -------------------------------- */
