@@ -242,17 +242,12 @@ body {
 
 /* -------------------------------- block-2 -------------------------------- */
 
-/*.skills__subtitle {
-    margin: 0 0 18px 0;
-    text-align: center;
-}*/
-
 /* -------------------------------- subtitle -------------------------------- */
 
 .subtitle {
     font-weight: 700;
     font-size: 24px;
-    margin: 0 0 18px 0;
+    margin: 0 0 25px 0;
     text-align: center;
 }
 
@@ -293,7 +288,6 @@ body {
 }
 
 /* -------------------------------- skills -------------------------------- */
-
 
 /* -------------------------------- slider -------------------------------- */
 
@@ -399,8 +393,8 @@ body {
     width: 95%;
     height: 90%;
     position: absolute;
-    top: 50%;
-    left: 50%;
+    top: 0;
+    left: 0;
     transform: translate(-50%, -50%);
     z-index: 1;
 }
@@ -416,6 +410,8 @@ body {
 
 .gallery__item:hover .gallery__cover {
     display: flex;
+    top: 50%;
+    left: 50%;
 }
 
 .gallery__item img {
