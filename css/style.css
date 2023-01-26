@@ -392,8 +392,10 @@ body {
 }
 
 .gallery__cover {
-    display: block;
-    background-color: #2c2c2c;
+    display: none;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(0, 0, 0, 0.7);
     width: 95%;
     height: 90%;
     position: absolute;
@@ -401,11 +403,19 @@ body {
     left: 50%;
     transform: translate(-50%, -50%);
     z-index: 1;
-    opacity: .7;
+}
+
+.gallery__cover span {
+    color: #fff;
+    position: relative;
+    z-index: 2;
+    font-size: 18px;
+    text-align: center;
+    padding: 20px;
 }
 
 .gallery__item:hover .gallery__cover {
-    /*display: block;*/
+    display: flex;
 }
 
 .gallery__item img {
