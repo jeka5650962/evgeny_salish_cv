@@ -293,6 +293,51 @@ body {
 /* -------------------------------- skills -------------------------------- */
 
 
+/* -------------------------------- slider -------------------------------- */
+
+.skill__info {
+    display: flex;
+    justify-content: space-between;
+}
+
+.range {
+    position: relative;
+}
+
+.range .bar {
+    position: absolute;
+    left: 0;
+    top: 7px;
+    width: 100%;
+    height: 5px;
+    z-index: 1;
+    overflow: hidden;
+}
+
+.range .bar .fill {
+    display: block;
+    height: 100%;
+    background-color: var(--color-2);
+}
+
+.range .bar .fill-1 {
+    width: 80%;
+}
+
+.range .slider {
+    position: relative;
+    z-index: 2;
+    width: 100%;
+    -webkit-appearance: none;
+    height: 5px;
+    outline: none;
+    background-color: rgba(55, 140, 63, 0.4);
+}
+
+.range .slider::-webkit-slider-thumb {
+    -webkit-appearance: none;
+}
+
 /* -------------------------------- @media -------------------------------- */
 
 @media (max-width: 1199px) {
