@@ -295,7 +295,7 @@ body {
 
 /* -------------------------------- slider -------------------------------- */
 
-.skill {
+.skill:not(:last-child) {
     margin-bottom: 30px;
 }
 
