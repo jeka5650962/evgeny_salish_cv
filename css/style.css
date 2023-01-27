@@ -374,7 +374,11 @@ body {
     background-color: rgba(55, 140, 63, 0.4);
 }
 
-/* -------------------------------- gallery -------------------------------- */
+/* -------------------------------- section profile-portfolio -------------------------------- */
+
+.profile-portfolio {
+    padding: 70px 0 30px 0;
+}
 
 .gallery__items {
     display: grid;
