@@ -480,18 +480,34 @@ body {
 
 /* -------------------------------- experience -------------------------------- */
 
-.experience__column {
+.add__column {
     padding: 28px;
 }
 
-.experience__column_1 {
+.add__column_1 {
     flex: 0 1 30%;
     background-color: var(--color-2);
     color: #fff;
 }
 
-.experience__column_2 {
+.add__column_2 {
     flex: 0 1 70%;
+}
+
+.add__row {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.add__data {
+    text-transform: uppercase;
+    margin-bottom: 15px;
+}
+
+.add__name {
+    font-weight: 600;
+    font-size: 22px;
 }
 
 /* -------------------------------- @media -------------------------------- */
