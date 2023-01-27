@@ -232,9 +232,9 @@ body {
     padding: 70px 0 30px 0;
 }
 
-.block {
+/*.block {
     padding: 70px 0 30px 0;
-}
+}*/
 
 .template {
     background-color: #fff;
@@ -484,7 +484,11 @@ body {
     }
 }
 
-/* -------------------------------- experience -------------------------------- */
+/* -------------------------------- section work-experience -------------------------------- */
+
+.work-experience {
+    padding: 70px 0 30px 0;
+}
 
 .experience:not(:last-child) {
     padding: 0 0 30px 0;
