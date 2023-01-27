@@ -490,15 +490,15 @@ body {
     padding: 70px 0 30px 0;
 }
 
-.experience:not(:last-child) {
+/*.experience:not(:last-child) {
     padding: 0 0 30px 0;
-}
+}*/
 
-.add__column {
+.body-template__column {
     padding: 28px;
 }
 
-.add__column_1 {
+.body-template__column_1 {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -507,29 +507,29 @@ body {
     color: #fff;
 }
 
-.add__column_2 {
+.body-template__column_2 {
     flex: 0 1 75%;
 }
 
-.add__row {
+.body-template__row {
     text-align: center;
 }
 
-.add__data {
+.body-template__data {
     text-transform: uppercase;
     margin-bottom: 15px;
 }
 
-.add__name {
+.body-template__name {
     font-weight: 500;
     font-size: 22px;
 }
 
-.add__name_job-title {
+.body-template__name_title {
     margin-bottom: 20px;
 }
 
-.add_description {
+.body-template__description {
     line-height: 1.5;
 }
 
@@ -637,15 +637,11 @@ body {
         flex-direction: column;
     }
 
-    .template__column:last-child {
-        padding: 0 28px 28px 28px;
-    }
-
-    .add__column_1 {
+    .body-template__column_1 {
         justify-content: flex-start;
     }
 
-    .add__row {
+    .body-template__row {
         text-align: start;
     }
 }
