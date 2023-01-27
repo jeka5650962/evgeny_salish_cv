@@ -114,21 +114,21 @@ body {
     flex: 1 1 auto;
 }
 
-/* -------------------------------- banner -------------------------------- */
+/* -------------------------------- profile-banner -------------------------------- */
 
-.banner {
+.profile-banner {
     position: relative;
     height: 550px;
 }
 
-.banner__body {
+.profile-banner__body {
     padding: 80px 0 0 0;
     position: relative;
     z-index: 2;
     text-align: center;
 }
 
-.banner__photo {
+.profile-banner__photo {
     width: 150px;
     height: 150px;
     border-radius: 50%;
@@ -136,25 +136,25 @@ body {
     margin: 0 auto 28px auto;
 }
 
-.banner__photo img {
+.profile-banner__photo img {
     width: 100%;
 }
 
-.banner__title {
+.profile-banner__title {
     color: var(--color-1);
     font-weight: 700;
     font-size: 35px;
     margin: 0 0 18px 0;
 }
 
-.banner__subtitle {
+.profile-banner__subtitle {
     color: var(--color-1);
     font-weight: 700;
     text-transform: uppercase;
     line-height: 1.3;
 }
 
-.banner__buttons {
+.profile-banner__buttons {
     margin: 20px 0 0 0;
     display: flex;
     justify-content: center;
@@ -162,7 +162,7 @@ body {
     flex-wrap: wrap;
 }
 
-.banner__button {
+.profile-banner__button {
     display: inline-block;
     color: var(--color-1);
     background-color: var(--color-2);
@@ -173,11 +173,11 @@ body {
     transition: var(--default-transition);
 }
 
-.banner__button:hover {
+.profile-banner__button:hover {
     background-color: var(--color-3);
 }
 
-.banner__social {
+.profile-banner__social {
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
@@ -189,7 +189,7 @@ body {
     z-index: 1;
 }
 
-.social {
+.social__link {
     width: 57px;
     height: 57px;
     flex: 0 0 auto;
@@ -203,15 +203,15 @@ body {
     transition: var(--default-transition);
 }
 
-.social:hover {
+.social__link:hover {
     box-shadow: rgba(55, 140, 63, .5) 0 0 0 3px;
 }
 
-.social img {
+.social__link img {
     height: 22px;
 }
 
-.banner__image {
+.profile-banner__image {
     position: absolute;
     width: 100%;
     height: 100%;
