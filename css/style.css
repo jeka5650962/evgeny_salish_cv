@@ -490,7 +490,7 @@ body {
     padding: 70px 0 30px 0;
 }
 
-.template__experience:not(:last-child) {
+.template__box:not(:last-child) {
     margin-bottom: 20px;
 }
 
@@ -531,6 +531,12 @@ body {
 
 .body-template__description {
     line-height: 1.5;
+}
+
+/* -------------------------------- section education -------------------------------- */
+
+.education {
+    padding: 70px 0 30px 0;
 }
 
 /* -------------------------------- @media -------------------------------- */
