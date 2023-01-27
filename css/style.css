@@ -259,7 +259,7 @@ body {
 }
 
 .block__about {
-    line-height: 21px;
+    line-height: 1.5;
 }
 
 .block__basic {
@@ -485,19 +485,20 @@ body {
 }
 
 .add__column_1 {
-    flex: 0 1 30%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex: 0 1 25%;
     background-color: var(--color-2);
     color: #fff;
 }
 
 .add__column_2 {
-    flex: 0 1 70%;
+    flex: 0 1 75%;
 }
 
 .add__row {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+    text-align: center;
 }
 
 .add__data {
@@ -506,8 +507,16 @@ body {
 }
 
 .add__name {
-    font-weight: 600;
+    font-weight: 500;
     font-size: 22px;
+}
+
+.add__name_job-title {
+    margin-bottom: 20px;
+}
+
+.add_description {
+    line-height: 1.5;
 }
 
 /* -------------------------------- @media -------------------------------- */
@@ -616,6 +625,14 @@ body {
 
     .block__column:last-child {
         padding: 0 28px 28px 28px;
+    }
+
+    .add__column_1 {
+        justify-content: flex-start;
+    }
+
+    .add__row {
+        text-align: start;
     }
 }
 
