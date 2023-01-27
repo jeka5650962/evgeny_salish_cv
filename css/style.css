@@ -517,15 +517,17 @@ body {
 
 .body-template__data {
     text-transform: uppercase;
+    line-height: 1.2;
     margin-bottom: 15px;
 }
 
 .body-template__name {
     font-weight: 500;
     font-size: 22px;
+    line-height: 1.1;
 }
 
-.body-template__name_title {
+.body-template__name_title-experience {
     margin-bottom: 20px;
 }
 
@@ -537,6 +539,18 @@ body {
 
 .education {
     padding: 70px 0 30px 0;
+}
+
+.body-template__name_title-education {
+    margin-bottom: 10px;
+}
+
+.body-template__category {
+    font-weight: 700;
+    color: #9a9a9a;
+    line-height: 1.2;
+    text-transform: uppercase;
+    margin-bottom: 20px;
 }
 
 /* -------------------------------- @media -------------------------------- */
