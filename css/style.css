@@ -637,6 +637,10 @@ body {
         flex-direction: column;
     }
 
+    .template__column:last-child {
+        padding: 0 28px 28px 28px;
+    }
+
     .body-template__column_1 {
         justify-content: flex-start;
     }
