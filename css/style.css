@@ -592,6 +592,32 @@ body {
 .form__body {
 }
 
+.form__item {
+    position: relative;
+}
+
+.form__item::before {
+    content: '';
+    width: 18px;
+    height: 18px;
+    position: absolute;
+    top: 50%;
+    left: 15px;
+    transform: translate(0, -50%);
+}
+
+.form__item:nth-child(1)::before {
+    background: url("../icons/user.svg") 0 0 no-repeat;
+}
+
+.form__item:nth-child(2)::before {
+    background: url("../icons/document.svg") 0 0 no-repeat;
+}
+
+.form__item:nth-child(3)::before {
+    background: url("../icons/email.svg") 0 0 no-repeat;
+}
+
 .form__item:not(:last-child) {
     margin-bottom: 25px;
 }
@@ -599,9 +625,14 @@ body {
 .form__input {
     border: 1px solid #e3e3e3;
     border-radius: 30px;
-    padding: 10px 15px;
+    padding: 10px 15px 10px 45px;
     width: 100%;
     font-size: 12px;
+    transition: var(--default-transition);
+}
+
+.form__input:focus {
+    border: 1px solid var(--color-3);
 }
 
 .form__textarea {
@@ -611,6 +642,11 @@ body {
     font-size: 12px;
     min-height: 80px;
     resize: none;
+    transition: var(--default-transition);
+}
+
+.form__textarea:focus {
+    border-bottom: 1px solid var(--color-3);
 }
 
 .form__btn {
