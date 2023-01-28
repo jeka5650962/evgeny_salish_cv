@@ -169,19 +169,21 @@ body {
     flex-wrap: wrap;
 }
 
-.profile-banner__button {
-    display: inline-block;
+.btn {
     color: var(--color-1);
     background-color: var(--color-2);
-    flex: 0 0 160px;
     padding: 14px;
     border-radius: var(--border-radius);
     font-size: 12px;
     transition: var(--default-transition);
 }
 
-.profile-banner__button:hover {
+.btn:hover {
     background-color: var(--color-3);
+}
+
+.profile-banner__button {
+    flex: 0 0 160px;
 }
 
 .profile-banner__social {
@@ -565,30 +567,29 @@ body {
     margin: 0 auto;
 }
 
+.contact__columns {
+    display: flex;
+    column-gap: 70px;
+}
+
+.contact__column {
+    flex: 0 1 50%;
+    padding-top: 20px;
+}
+
+.contact__note {
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+
 .form {
 }
 
 .form__body {
 }
 
-.form__title {
-}
-
-.form__columns {
-    display: flex;
-}
-
-.form__column {
-    flex: 0 1 50%;
-}
-
-.form__note {
-    font-weight: 700;
-    margin-bottom: 20px;
-}
-
 .form__item:not(:last-child) {
-    margin-bottom: 20px;
+    margin-bottom: 25px;
 }
 
 .form__input {
@@ -596,12 +597,31 @@ body {
     border-radius: 30px;
     padding: 10px 15px;
     width: 100%;
+    font-size: 12px;
 }
 
 .form__textarea {
     width: 100%;
     border-bottom: 1px solid #e3e3e3;
     padding: 10px 15px;
+    font-size: 12px;
+}
+
+.form__btn {
+    width: 100px;
+}
+
+.contact__item {
+    line-height: 1.6;
+    margin-bottom: 16px;
+}
+
+.contact__label {
+    font-weight: 700;
+}
+
+.contact__value {
+    color: inherit;
 }
 
 /* -------------------------------- @media -------------------------------- */

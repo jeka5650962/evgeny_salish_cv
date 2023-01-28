@@ -56,8 +56,8 @@
                     <h1 class="profile-banner__title">Anthony Barnett</h1>
                     <div class="profile-banner__subtitle">Web developer, graphic designer, photographer</div>
                     <div class="profile-banner__buttons">
-                        <a class="profile-banner__button" href="#">Hire me</a>
-                        <a class="profile-banner__button" href="#">Download CV</a>
+                        <a class="profile-banner__button btn" href="#">Hire me</a>
+                        <a class="profile-banner__button btn" href="#">Download CV</a>
                     </div>
                 </div>
                 <div class="profile-banner__social social">
@@ -98,7 +98,7 @@
                             </div>
                             <div class="template__basic basic">
                                 <div class="basic__property">Phone:</div>
-                                <a class="basic__value basic__value_link" href="tel:+375445650962">+375445650962</a>
+                                <a class="basic__value basic__value_link" href="tel:+375445650962">+375 44 565-09-62</a>
                             </div>
                             <div class="template__basic basic">
                                 <div class="basic__property">Location:</div>
@@ -431,12 +431,13 @@
         <section class="contact">
             <div class="contact__container _container">
                 <div class="contact__template template">
-                    <div class="form">
-                        <form class="form__body" id="form" action="#">
-                            <h2 class="form__title subtitle">Contact Me</h2>
-                            <div class="form__columns">
-                                <div class="form__column">
-                                    <div class="form__note">Feel free to contact me</div>
+                    <h2 class="subtitle">Contact Me</h2>
+                    <div class="contact__columns">
+                        <div class="contact__column">
+                            <div class="contact__note">Feel free to contact me</div>
+                            <!-- Начало формы -->
+                            <div class="form">
+                                <form class="form__body" id="form" action="#">
                                     <div class="form__item">
                                         <input class="form__input" type="text" name="name" placeholder="Name">
                                     </div>
@@ -450,12 +451,25 @@
                                         <textarea class="form__textarea" name="message"
                                                   placeholder="Your message"></textarea>
                                     </div>
-                                </div>
-                                <div class="form__column">
-
-                                </div>
+                                    <button class="form__btn btn" type="submit">Send</button>
+                                </form>
                             </div>
-                        </form>
+                            <!-- Конец формы -->
+                        </div>
+                        <div class="contact__column">
+                            <div class="contact__item">
+                                <div class="contact__label">Location</div>
+                                <div class="contact__value">Belarus, Vitebsk</div>
+                            </div>
+                            <div class="contact__item">
+                                <div class="contact__label">Phone</div>
+                                <a class="contact__value" href="tel:+375445650962">+375 44 565-09-62</a>
+                            </div>
+                            <div class="contact__item">
+                                <div class="contact__label">Email</div>
+                                <a class="contact__value" href="mailto:evgeny@salish.ru">evgeny@salish.ru</a>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>
