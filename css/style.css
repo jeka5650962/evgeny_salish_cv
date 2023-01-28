@@ -559,6 +559,51 @@ body {
     padding: 70px 0 30px 0;
 }
 
+.contact__template {
+    padding: 28px;
+    max-width: 660px;
+    margin: 0 auto;
+}
+
+.form {
+}
+
+.form__body {
+}
+
+.form__title {
+}
+
+.form__columns {
+    display: flex;
+}
+
+.form__column {
+    flex: 0 1 50%;
+}
+
+.form__note {
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+
+.form__item:not(:last-child) {
+    margin-bottom: 20px;
+}
+
+.form__input {
+    border: 1px solid #e3e3e3;
+    border-radius: 30px;
+    padding: 10px 15px;
+    width: 100%;
+}
+
+.form__textarea {
+    width: 100%;
+    border-bottom: 1px solid #e3e3e3;
+    padding: 10px 15px;
+}
+
 /* -------------------------------- @media -------------------------------- */
 
 @media (max-width: 1199px) {
