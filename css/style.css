@@ -577,6 +577,10 @@ body {
     padding-top: 20px;
 }
 
+.contact__column:nth-child(2) {
+    line-height: 1.6;
+}
+
 .contact__note {
     font-weight: 700;
     margin-bottom: 20px;
@@ -605,15 +609,20 @@ body {
     border-bottom: 1px solid #e3e3e3;
     padding: 10px 15px;
     font-size: 12px;
+    min-height: 80px;
+    resize: none;
 }
 
 .form__btn {
     width: 100px;
 }
 
-.contact__item {
-    line-height: 1.6;
+.contact__item:not(:last-child) {
     margin-bottom: 16px;
+}
+
+.contact__item a:hover {
+    color: var(--color-3);
 }
 
 .contact__label {
@@ -748,6 +757,14 @@ body {
 
     .gallery__items {
         grid-template-columns: 1fr;
+    }
+
+    .contact__columns {
+        flex-direction: column;
+    }
+
+    .contact__column:last-child {
+        padding-top: 50px;
     }
 }
 
