@@ -708,7 +708,7 @@ body {
 /* -------------------------------- footer -------------------------------- */
 
 .footer {
-    padding: 50px 0;
+    padding: 50px 0 20px 0;
 }
 
 .footer__body {
@@ -716,13 +716,13 @@ body {
     flex-direction: column;
     align-items: center;
     text-align: center;
-    line-height: 1.3;
+    line-height: 1.2;
 }
 
 .footer__title {
-    font-size: 24px;
+    font-size: 22px;
     font-weight: 700;
-    margin-bottom: 15px;
+    margin-bottom: 5px;
 }
 
 .footer__text {
@@ -863,12 +863,20 @@ body {
         grid-template-columns: 1fr;
     }
 
+    .contact {
+        padding: 70px 0 40px 0;
+    }
+
     .contact__columns {
         flex-direction: column;
     }
 
     .contact__column:last-child {
         padding-top: 50px;
+    }
+
+    .footer {
+        padding: 0 0 10px 0;
     }
 }
 
