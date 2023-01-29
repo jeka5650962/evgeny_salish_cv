@@ -53,6 +53,12 @@ body {
     top: 0;
     left: 0;
     z-index: 50;
+    background-color: transparent;
+    transition: background-color .3s ease 0s;
+}
+
+.header.bg-green {
+    background-color: var(--color-2);
 }
 
 .header::before {
@@ -69,7 +75,7 @@ body {
     position: relative;
     display: flex;
     justify-content: space-between;
-    height: 84px;
+    height: 60px;
     align-items: center;
 }
 

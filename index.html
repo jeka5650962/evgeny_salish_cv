@@ -12,31 +12,31 @@
     <link rel="icon" href="cv.ico"/>
     <title>Евгений Салиш CV</title>
 </head>
-<body>
+<body id="top">
 <div class="wrapper">
     <header class="header">
         <div class="header__container _container">
             <div class="header__body">
-                <a class="header__logo" href="#">Резюме</a>
+                <a class="header__logo" href="#top">Резюме</a>
                 <div class="header__burger">
                     <span></span>
                 </div>
                 <nav class="header__menu">
                     <ul class="header__list">
                         <li class="header__item">
-                            <a class="header__link" href="#">Обо мне</a>
+                            <a class="header__link" href="#basic-info">Обо мне</a>
                         </li>
                         <li class="header__item">
-                            <a class="header__link" href="#">Навыки</a>
+                            <a class="header__link" href="#prof-skills">Навыки</a>
                         </li>
                         <li class="header__item">
-                            <a class="header__link" href="#">Портфолио</a>
+                            <a class="header__link" href="#my-portfolio">Портфолио</a>
                         </li>
                         <li class="header__item">
-                            <a class="header__link" href="#">Опыт</a>
+                            <a class="header__link" href="#my-experience">Опыт</a>
                         </li>
                         <li class="header__item">
-                            <a class="header__link" href="#">Контакты</a>
+                            <a class="header__link" href="#my-contact">Контакты</a>
                         </li>
                     </ul>
                 </nav>
@@ -53,8 +53,8 @@
                     <h1 class="profile-banner__title">Евгений Салиш</h1>
                     <div class="profile-banner__subtitle">Junior Frontend-разработчик / HTML-верстальщик</div>
                     <div class="profile-banner__buttons">
-                        <a class="profile-banner__button btn" href="#">Предложить работу</a>
-                        <a class="profile-banner__button btn" href="#">Скачать резюме</a>
+                        <a class="profile-banner__button btn" href="#my-contact">Предложить работу</a>
+                        <a class="profile-banner__button btn" href="#top">Скачать резюме</a>
                     </div>
                 </div>
                 <div class="profile-banner__social social">
@@ -70,7 +70,7 @@
                 <img src="images/banner/cover.jpg" alt="cover">
             </div>
         </section>
-        <section class="basic-information">
+        <section class="basic-information" id="basic-info">
             <div class="basic-information__container _container">
                 <div class="template">
                     <div class="template__body">
@@ -110,7 +110,7 @@
                 </div>
             </div>
         </section>
-        <section class="professional-skills">
+        <section class="professional-skills" id="prof-skills">
             <div class="professional-skills__container _container">
                 <h2 class="subtitle">Профессиональные навыки</h2>
                 <div class="template">
@@ -243,7 +243,7 @@
                 </div>
             </div>
         </section>
-        <section class="profile-portfolio">
+        <section class="profile-portfolio" id="my-portfolio">
             <div class="profile-portfolio__container _container">
                 <h2 class="subtitle">Портфолио</h2>
                 <div class="profile-portfolio__gallery gallery">
@@ -274,7 +274,7 @@
                 </div>
             </div>
         </section>
-        <section class="work-experience">
+        <section class="work-experience" id="my-experience">
             <div class="work-experience__container _container">
                 <h2 class="subtitle">Опыт</h2>
                 <div class="template template__box">
@@ -321,7 +321,7 @@
                 </div>
             </div>
         </section>
-        <section class="education">
+        <section class="education" id="my-education">
             <div class="education__container _container">
                 <h2 class="subtitle">Образование</h2>
                 <div class="template template__box">
@@ -404,7 +404,7 @@
                 </div>
             </div>
         </section>
-        <section class="contact">
+        <section class="contact" id="my-contact">
             <div class="contact__container _container">
                 <div class="contact__template template">
                     <h2 class="subtitle">Связаться со мной</h2>
@@ -465,5 +465,7 @@
 </div>
 <script src="js/burger.js"></script>
 <script src="js/form.js"></script>
+<script src="js/scroll.js"></script>
+<script src="js/header.js"></script>
 </body>
 </html>
