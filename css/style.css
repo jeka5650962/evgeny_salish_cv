@@ -789,7 +789,7 @@ body {
 
     .header__menu.active {
         left: 0;
-        width: 300px;
+        width: 250px;
     }
 
     .header__list {
@@ -867,6 +867,10 @@ body {
 @media (max-width: 575px) {
     ._container {
         max-width: 100%;
+    }
+
+    .header__menu.active {
+        width: 200px;
     }
 
     .about__item {
