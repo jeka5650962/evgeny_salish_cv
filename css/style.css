@@ -785,7 +785,7 @@ body {
 
     .header__menu.active {
         left: 0;
-        width: 50%;
+        width: 300px;
     }
 
     .header__list {
@@ -824,6 +824,10 @@ body {
 @media (max-width: 767px) {
     ._container {
         max-width: 540px;
+    }
+
+    .header__menu.active {
+        width: 250px;
     }
 
     .professional-skills__body {
