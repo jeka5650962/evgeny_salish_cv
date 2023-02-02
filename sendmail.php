@@ -11,7 +11,7 @@
     $mail->IsHTML(true);
 
     // От кого письмо
-    $mail->setFrom('info@salish@.site', 'Евгений Салиш Инфо');
+    $mail->setFrom('info@salish.site', 'Евгений Салиш Инфо');
     // Кому отправить
     $mail->addAddress('evgeny@salish.site');
     // Тема письма
@@ -35,6 +35,8 @@
     if (trim(!empty($_POST['message']))) {
         $body.='<p><strong>Сообщение:</strong> '.$_POST['message'].'</p>';
     }
+
+    $mail->Body = $body;
 
     // Отправка
     if (!$mail->send()) {
