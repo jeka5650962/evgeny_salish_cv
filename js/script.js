@@ -41,8 +41,6 @@ document.addEventListener('DOMContentLoaded', function () {
             } else {
                 alert('Произошла ошибка при отправке формы')
             }
-        } else {
-            // alert('Заполните обязательные поля')
         }
     }
 
