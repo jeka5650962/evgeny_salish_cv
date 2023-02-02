@@ -712,9 +712,9 @@ body {
 }
 
 @media (max-width: 991px) {
-    body.lock {
+    /*body.lock {
         overflow: hidden;
-    }
+    }*/
 
     ._container {
         max-width: 720px;
