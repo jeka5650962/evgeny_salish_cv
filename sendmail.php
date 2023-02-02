@@ -42,7 +42,7 @@
     if (!$mail->send()) {
         $message = 'Ошибка';
     } else {
-        $message = 'Данные отправлены!';
+        $message = 'Форма отправлена. Я скоро свяжусь с Вами!';
     }
 
     $response = ['message' => $message];
