@@ -2,19 +2,19 @@
 
 let headerBurger = document.querySelector('.header__burger')
 let headerMenu = document.querySelector('.header__menu')
-// let back = document.querySelector('body')
-let headerList = document.querySelector('.header__list')
+let headerLink = document.querySelectorAll('.header__link')
 
 headerBurger.onclick = function () {
     headerBurger.classList.toggle('active')
     headerMenu.classList.toggle('active')
-    // back.classList.toggle('lock')
 }
 
-headerList.onclick = function () {
-    headerList.classList.remove('active')
-    // back.classList.toggle('lock')
-}
+headerLink.forEach(item => {
+    item.onclick = function () {
+        headerBurger.classList.remove('active')
+        headerMenu.classList.remove('active')
+    }
+})
 
 /* ------------------------------- form ------------------------------- */
 
@@ -99,7 +99,6 @@ window.addEventListener('scroll', function () {
     } else {
         remove_class_on_scroll()
     }
-
 })
 
 /* ------------------------------- scroll ------------------------------- */
