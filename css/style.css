@@ -129,7 +129,7 @@ body {
 }
 
 .profile-banner__body {
-    padding: 80px 0 0 0;
+    padding: 120px 0 0 0;
     position: relative;
     z-index: 2;
     text-align: center;
@@ -890,5 +890,11 @@ body {
 
     .basic__property {
         margin-bottom: 5px;
+    }
+}
+
+@media (max-width: 359px) {
+    .profile-banner__body {
+        padding: 78px 0 0 0;
     }
 }
