@@ -663,7 +663,24 @@ body {
 }
 
 .form__btn {
-    width: 100px;
+    color: var(--color-2);
+    font-weight: 600;
+    font-size: 12px;
+    background-color: transparent;
+    padding: 10px 15px;
+    border: 1px solid var(--color-2);
+    border-radius: 30px;
+    transition: var(--default-transition);
+}
+
+.form__btn:hover {
+    color: var(--color-1);
+    background-color: var(--color-2);
+}
+
+.form__btn:active {
+    background-color: var(--color-3);
+    border: 1px solid var(--color-3);
 }
 
 .contact__item:not(:last-child) {
