@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
-    <url>
-        <loc>https://salish.site/</loc>
-        <lastmod>2023-02-04T13:16:23+03:00</lastmod>
-        <priority>1</priority>
-        <changefreq>always</changefreq>
-    </url>
-</urlset>
+    <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+        <url>
+            <loc>https://salish.site/</loc>
+            <lastmod>2023-02-05</lastmod>
+            <changefreq>monthly</changefreq>
+            <priority>0.8</priority>
+        </url>
+    </urlset>
