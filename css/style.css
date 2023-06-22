@@ -544,7 +544,7 @@ body {
 
 .contact {
     padding: 70px 0;
-    margin: 70px 0 30px 0;
+    margin: 70px 0 0 0;
     position: relative;
     overflow: hidden;
 }
@@ -693,7 +693,8 @@ body {
 }
 
 .footer {
-    padding: 50px 0 20px 0;
+    padding: 20px 0;
+    background-color: #333;
 }
 
 .footer__body {
@@ -708,10 +709,11 @@ body {
     font-size: 22px;
     font-weight: 700;
     margin-bottom: 5px;
+    color: rgba(255, 255, 255, 0.8);
 }
 
 .footer__text {
-    color: #797979;
+    color: rgba(255, 255, 255, 0.5);
 }
 
 @media (max-width: 1199px) {
