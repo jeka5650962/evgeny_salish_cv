@@ -872,10 +872,6 @@ body {
     .contact__column:last-child {
         padding-top: 50px;
     }
-
-    .footer {
-        padding: 0 0 10px 0;
-    }
 }
 
 @media (max-width: 575px) {
