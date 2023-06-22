@@ -342,7 +342,7 @@ body {
 }
 
 .skill__range .range__bar .bar__fill_4 {
-    width: 90%;
+    width: 50%;
 }
 
 .skill__range .range__bar .bar__fill_5 {
@@ -359,14 +359,6 @@ body {
 
 .skill__range .range__bar .bar__fill_8 {
     width: 95%;
-}
-
-.skill__range .range__bar .bar__fill_9 {
-    width: 70%;
-}
-
-.skill__range .range__bar .bar__fill_10 {
-    width: 80%;
 }
 
 .skill__range .range__slider {
